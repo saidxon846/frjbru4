@@ -1,67 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./style.css">
-  <title>Backround video</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fonts/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>AOS Animation</title>
 </head>
 <body>
-  
+    
+    <header class="header">
+        <div class="container">
+            <nav class="nav__bar">
+                <a href="" class="logo">
+                    Marketplace
+                </a>
 
-<header class="header">
-  <video class="video" src="./videos/vid1.mp4" autoplay loop muted ></video>
-  <div class="container">
-    <nav class="nav__bar">
-      <a href="" class="logo">
-        <img src="./videos/logo.png" alt="">
-      </a>
+                <ul class="list">
+                    <li><a href="" class="list__link">Products</a></li>
+                    <li><a href="" class="list__link">Brands</a></li>
+                    <li><a href="" class="list__link">Deals</a></li>
+                    <li><a href="" class="list__link">Support</a></li>
+                </ul>
 
-      <ul class="list">
-        <li><a href="" class="list__link">Falcon 9</a></li>
-        <li><a href="" class="list__link">Falcon Heavy</a></li>
-        <li><a href="" class="list__link">Dragon</a></li>
-        <li><a href="" class="list__link">Starship</a></li>
-        <li><a href="" class="list__link">Human Spaceflight</a></li>
-        <li><a href="" class="list__link">Rideshare</a></li>
-        <li><a href="" class="list__link">Starshield</a></li>
-        <li><a href="" class="list__link">Starlink</a></li>
-      </ul>
-    </nav>
+                <form action="" class="search">
+                    <input type="search" placeholder="Search marketplace">
+                    <i class="far fa-search"></i>
+                </form>
+            </nav>
+            <div class="header__info">
+                <h1 class="title">
+                    More Options. <br> More to Love.
+                </h1>
+                <a href="" class="header__btn">
+                    Buy Now
+                </a>
+            </div>
+        </div>
+    </header>
 
-    <div class="header__info">
-      <p class="text">
-        UPCOMING LAUNCH
-      </p>
-      <h1 class="title">
-        Starlink Mission
-      </h1>
-      <a href="" class="header__btn">
-        WATCH
-      </a>
-    </div>
-  </div>
-</header>
-<main class="main">
-  <section class="header">
-    <video class="video" src="./videos/vid2.mp4" autoplay loop muted ></video>
-    <div class="container">
-      <div class="header__info">
-        <p class="text">
-          UPCOMING LAUNCH
-        </p>
-        <h1 class="title">
-          Starlink Mission
-        </h1>
-        <a href="" class="header__btn">
-          WATCH
-        </a>
-      </div>
-    </div>
-  </section>
-</main>
+    <main class="main">
+        <div class="container">
+            <section class="gaming">
+                <h2 class="main__title">
+                    Gaming and Entertainment
+                </h2>
+                <div class="products" data-aos="zoom-out-left">
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="gaming">
+                <h2 class="main__title">
+                    Gaming and Entertainment
+                </h2>
+                <div class="products" data-aos="fade-right"
+                data-aos-offset="100">
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="gaming">
+                <h2 class="main__title">
+                    Gaming and Entertainment
+                </h2>
+                <div class="products" data-aos="fade-up"
+                data-aos-duration="3000">
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <img src="./images/card1.png" alt="">
+                        <h3>Graphics Cards and 
+                            Desktops</h3>
+                        <a href="">
+                            Shop now <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
 
 
 
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
